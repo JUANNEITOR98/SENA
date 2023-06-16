@@ -5,12 +5,12 @@
 	     <meta charset="UFT-8">
 	     <meta name="viewport" content="width=device-width, user-scalable=no,
 	     initial-scale=1,maximum-sacale=1,munumym.scale=1">
-	     <link rel="stylesheet" href="/Pagina completa/css/estilos.css">
-	 <script  src="/Pagina completa/js/validationIndex.js"></script>
+	     <link rel="stylesheet" href="css/estilos.css">
+	 
 </head> 
 <body class="body1"> 
 	<br>
-	     <form class = "form2" action="/Pagina completa/Tablas.html" method="post" enctype="text/plain" onsubmit="ValidationEvent()">
+	     <form class = "form2" action="/Pagina completa/Tablas.html" method="post" enctype="text/plain" onsubmit="return ValidationEvent()">
 
         <h2>Iniciar sesion </h2>
 		<input  id="usuario" name="name" type="text" placeholder="Ingrese su usuario" >
@@ -21,5 +21,6 @@
 			<center><a href="/Pagina completa/RegistrarUsuario.html">Registrarse</a></center>
 				<br>
 	</form>
-  </body>
+	<script  src="js/validationIndex.js"></script>	
+</body>
 </html>
