@@ -8,27 +8,24 @@ function ValidationEvent() {
           
         if ( pass == '12345' ) {            
 			alert("Usuario Logeado.....!");
-			return true;
+            window.location.assign("http://127.0.0.1:5500/Pagina%20completa/tablas.html")
         } 
         else {
             if (pass == '') {
                 alert("Campo PassWord VACIO.....!");
-                return false;
+                
                 }
                 else{
               alert("PassWord Invalido.....!");
-              return false;
-            }
+              }
         }
     } 
     else {
         if (user == '') {
         alert("Campo Usuario VACIO.....!");
-        return false;
         }
         else{
             alert("Usuario Invalido.....!");
-        return false;
         }
     } 
 
