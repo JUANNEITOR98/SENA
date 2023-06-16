@@ -1,0 +1,124 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Times New Roman', Times, serif;
+	box-sizing: border-box;
+	color: rgb(10, 10, 10);
+}
+
+.body1{
+    background-image: url(https://lh3.googleusercontent.com/1NMbGJNeO4JoVkzQEZdHQJ_9WJ7_UejG_u-bW8PWoff1376cmRSkVHOQqTpcQAIDUV_wHbjIoEOnhHzzy6scl4HawA=w640-h400-e365-rj-sc0x00ffffff);
+	background-size:cover;
+	background-attachment: fixed;
+	background-position: center, center ;
+	background-repeat: no-repeat;
+	margin: 0px;
+	font-family: 'Times New Roman', Times, serif	;
+	}
+
+.body0 {
+    background-image: url(https://lh3.googleusercontent.com/1NMbGJNeO4JoVkzQEZdHQJ_9WJ7_UejG_u-bW8PWoff1376cmRSkVHOQqTpcQAIDUV_wHbjIoEOnhHzzy6scl4HawA=w640-h400-e365-rj-sc0x00ffffff);
+	background-size:cover;
+	background-attachment: fixed;
+	background-position: center, center ;
+	background-repeat: no-repeat;
+	display: flex;
+	min-height: 100vh;
+	max-width: 100%;
+	max-height: 0%; 
+}
+
+form{
+	margin: auto;
+	width: 100%;
+	max-width:500px;
+	background: #09499cb8;
+	padding: 30px;
+	border: 5px solid rgba(0,0,0,0.2);
+}
+
+.tableViewUser {
+	margin: auto;
+	width: 50%;
+	max-width:500px;
+	background: #ffffff86;
+	padding: 40px;
+	border: 1px solid rgba(0,0,0,0.2);
+}
+
+input {
+	display: block;
+	padding: 10px;
+	width: 100%;
+	margin: 10px 0;
+	font-size: 10px;
+	}
+input[type="submit"]{
+	background: linear-gradient(#08dd8b,#e0dcd5);
+	border: 0;
+	color: #000000;
+	opacity: 0.8;
+	cursor: pointer;
+	border-radius: 20px;
+	margin-bottom: 0;
+	}
+input[type="reset"]{
+	background: linear-gradient(#242222, #e0DCD5);
+	border: 0;
+	color: #000000;
+	opacity: 0.8;
+	cursor: pointer;
+	border-radius: 20px;
+	margin-bottom: 0;
+	}
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+table {
+    width: 100%;
+    height: 150px;
+    border: 5px double  #b4cfd6;
+}
+
+h1, td, th{
+    color: rgb(0, 0, 0);
+}
+
+.tableViewUser td{
+    border: solid 1px;
+    width: 0%;
+    height: 40px;
+    background-size: cover;
+    
+}
+
+.tableViewUser th{
+    border: double 1px;
+}
+
+h1 {
+    font-family: monospace;
+	
+	margin: auto;
+	width: 50%;
+	max-width:500px;
+	background: #2160ad7e;
+	padding: 20px;
+	border: 1px solid rgba(0,0,0,0.2);
+
+}
+
+a {
+	color: white;
+	margin: auto;
+	width: 50%;
+	max-width:500px;
+	background: #c0224477;
+	padding: 10px;
+	border: 1px solid rgba(0,0,0,0.2);
+
+}

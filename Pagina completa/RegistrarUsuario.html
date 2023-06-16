@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+     <head>
+	     <title>Registrarse</title>
+	     <meta charset="UFT-8">
+	     <meta name="viewport" content="width=device-width, user-scalable=no,
+	     initial-scale=1,maximum-sacale=1,munumym.scale=1">
+	     <link rel="stylesheet" href="css/estilos.css">
+	 <script  src="js/validation_usuarios.js"></script>
+</head> 
+<body class="body1"> 
+     <form class = "form1" action="Tablas.html" method="post" enctype="text/plain" onsubmit="return ValidationEvent()">
+
+        <h2>Registrarse </h2>
+		<input  id="usuario" name="usuario" type="text" placeholder="Ingrese su Nombre" >
+
+		
+		<input  id="usuario" name="usuario" type="text" placeholder="Ingrese su Apellido" >
+
+		<select styleid="typeDocument" placeholder="Ingrese su tipo de documento" name="typeDocument" id="typeDocument">
+			<option value="CC">Cédula de Ciudadanía</option>
+			<option value="TI">Tarjeta de Identidad</option>
+			<option value="CE">Cédula de Extranjería</option>
+			<option value="PS">Pasaporte</option>
+
+			
+		<input type="number" placeholder="Digitar documento" name="ndocumento" id="ndocumento">
+
+		<input type="email" placeholder="Digitar Correo Electrónico" name="email" id="email">
+
+		<input  id="usuario" name="usuario" type="text" placeholder="Ingrese su Dirección" >
+
+		<input type="number" value="" placeholder="Digitar Celular" id="cellphone" name="cellphone" required />
+
+	    <input id="date" name="date" type="date" placeholder="Ingrese su fecha de nacimiento">
+
+		<input type="color" value="" id="color" name="color">
+
+		<input type="time" value="" id="lunchTime" name="lunchTime" required />
+
+	    </select>
+		<center><input type="submit" value="Ingresar"><center>
+	</form>
+  </body>
+</html>
