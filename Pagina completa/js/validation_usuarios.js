@@ -11,22 +11,21 @@
 			
 			if (documento !=''){
 			alert("Usuario Logeado.....!");
-			return true;
+	window.location.assign("http://127.0.0.1:5500/Pagina%20completa/tablas.html")
 			}
 			else{
 				alert ("Ingrese un Documento valido.....!");
-			return false;
+			
 			}
         } else{
 			alert ("Ingrese una fecha valida.....!");
-			return false;
+			
 		      }
 	}
 	else {
         alert("Coloque Un Nombre de Usuario.....!");
-        return false;
-        }
+         }
 
-        
+        event.preventDefault();
     
     }
